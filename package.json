@@ -1,6 +1,6 @@
 {
-  "name": "rn-tourguide",
-  "version": "2.6.1",
+  "name": "@gabrielfcs/rn-tourguide",
+  "version": "2.6.4",
   "description": "Make an interactive step by step tour guide for your react-native app (a rewrite of react-native-copilot)",
   "main": "node_modules/expo/AppEntry.js",
   "types": "lib/index.d.ts",
@@ -22,9 +22,12 @@
     "deploy": "gh-pages -d web-build",
     "predeploy": "yarn verify && expo build:web"
   },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xcarpentier/rn-tourguide.git"
+    "url": "git+https://github.com/Gabrielfcs/rn-tourguide.git"
   },
   "keywords": [
     "react-native",
